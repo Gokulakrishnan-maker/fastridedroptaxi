@@ -7,7 +7,7 @@ const FloatingIcons = () => {
   };
 
   return (
-    <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-row items-center space-x-4">
+    <div className="fixed right-6 bottom-6 z-50 flex flex-col items-center space-y-4">
       {/* Back to Top Icon */}
       <div
         onClick={scrollToTop}
@@ -15,7 +15,7 @@ const FloatingIcons = () => {
         title="Back to Top"
       >
         <ChevronUp className="h-7 w-7" />
-        <div className="absolute -top-12 left-1/2 -translate-x-1/2 transform bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        <div className="absolute right-16 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
           Back to Top
         </div>
       </div>
@@ -27,7 +27,7 @@ const FloatingIcons = () => {
         title="Call Us"
       >
         <Phone className="h-7 w-7" />
-        <div className="absolute -top-12 left-1/2 -translate-x-1/2 transform bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        <div className="absolute right-16 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
           Call +91 7305470462
         </div>
       </a>
@@ -41,7 +41,7 @@ const FloatingIcons = () => {
         title="WhatsApp Us"
       >
         <MessageCircle className="h-7 w-7" />
-        <div className="absolute -top-12 left-1/2 -translate-x-1/2 transform bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        <div className="absolute right-16 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
           WhatsApp Us
         </div>
       </a>
