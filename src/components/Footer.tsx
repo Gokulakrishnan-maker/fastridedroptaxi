@@ -9,17 +9,17 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <span className="text-2xl font-bold">Happyridedroptaxi</span>
+              <span className="text-2xl font-bold">Fastridedroptaxi</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              Your trusted Happyridedroptaxi service providing safe, reliable, and comfortable transportation 
+              Your trusted Fastridedroptaxi service providing safe, reliable, and comfortable transportation 
               across all districts in Tamil Nadu. Available 24/7 for local and outstation trips.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="https://wa.me/919087520500" className="bg-gray-800 p-3 rounded-full hover:bg-green-600 transition-colors">
+              <a href="https://wa.me/917305470462" className="bg-gray-800 p-3 rounded-full hover:bg-green-600 transition-colors">
                 <span className="h-5 w-5 flex items-center justify-center text-sm font-bold">W</span>
               </a>
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
@@ -44,19 +44,19 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-orange-400" />
-                <a href="tel:+919087520500" className="text-gray-300 hover:text-orange-400 transition-colors">+91 9087520500</a>
+                <a href="tel:+917305470462" className="text-gray-300 hover:text-orange-400 transition-colors">+91 9087520500</a>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="h-4 w-4 text-orange-500" />
-                <a href="https://wa.me/919087520500" target="_blank" rel="noopener noreferrer"className="text-gray-300 hover:text-orange-400 transition-colors">WhatsApp Us</a>
+                <a href="https://wa.me/917305470462" target="_blank" rel="noopener noreferrer"className="text-gray-300 hover:text-orange-400 transition-colors">WhatsApp Us</a>
               </div>
               <div className="flex items-center space-x-3">
                 <AtSign className="h-4 w-4 text-orange-400" />
-                <span className="text-gray-300">happyridedroptaxi@gmail.com</span>
+                <span className="text-gray-300">fastridedroptaxi.booking@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-orange-400" />
-                <span className="text-gray-300">Tiruchirappali, Tamil Nadu</span>
+                <span className="text-gray-300">Ariyalur, Tamil Nadu</span>
               </div>
             </div>
             
@@ -69,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-           © 2025 Happyridedroptaxi. All rights reserved.
+           © 2025 Fastridedroptaxi. All rights reserved.
            Designed by{" "}
            <Link
           to="/gk-web-designs"
