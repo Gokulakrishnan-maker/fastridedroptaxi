@@ -117,7 +117,7 @@ const Tariff = () => {
             <ul className="space-y-2 text-gray-700">
               <li>• Driver Bata: ₹500 per day</li>
               <li>• <strong>Minimum billing: 250 KM</strong></li>
-              <li>• Bangalore pickup: 300kms minimum</li>
+              <li>• Bangalore pickup: 250kms minimum</li>
               <li>• Any other state: 250kms minimum</li>
             </ul>
           </div>
