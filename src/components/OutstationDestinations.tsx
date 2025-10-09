@@ -5,7 +5,7 @@ const OutstationDestinations = () => {
   const destinations = [
     {
       name: 'Chennai',
-      image: 'https://happyridedroptaxi.com/assets/chennai.png',
+      image: 'https://fastridedroptaxi.com/assets/chennai.png',
       distance: '500 km',
       duration: '7-8 hours',
       description: 'Capital city with Marina Beach and IT corridor',
@@ -15,7 +15,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Bangalore',
-      image: 'https://happyridedroptaxi.com/assets/bangolore.png',
+      image: 'https://fastridedroptaxi.com/assets/bangolore.png',
       distance: '360 km',
       duration: '6-7 hours',
       description: 'Silicon Valley of India with gardens and tech hubs',
@@ -25,7 +25,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Ooty',
-      image: 'https://happyridedroptaxi.com/assets/ooty-hillstation.png',
+      image: 'https://fastridedroptaxi.com/assets/ooty-hillstation.png',
       distance: '85 km',
       duration: '2.5 hours',
       description: 'Queen of Hill Stations with tea gardens',
@@ -35,7 +35,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kodaikanal',
-      image: 'https://happyridedroptaxi.com/assets/kodaikanal-hillstation.png',
+      image: 'https://fastridedroptaxi.com/assets/kodaikanal-hillstation.png',
       distance: '180 km',
       duration: '4 hours',
       description: 'Princess of Hill Stations with pristine lakes',
@@ -45,7 +45,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://happyridedroptaxi.com/assets/meenakshi-amman-temple.png',
+      image: 'https://fastridedroptaxi.com/assets/meenakshi-amman-temple.png',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
@@ -65,7 +65,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Mysore',
-      image: 'https://happyridedroptaxi.com/assets/mysore-palace.png',
+      image: 'https://fastridedroptaxi.com/assets/mysore-palace.png',
       distance: '280 km',
       duration: '5-6 hours',
       description: 'City of Palaces with rich heritage',
@@ -85,7 +85,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Pondicherry',
-      image: 'https://happyridedroptaxi.com/assets/pondicherry.png',
+      image: 'https://fastridedroptaxi.com/assets/pondicherry.png',
       distance: '380 km',
       duration: '6-7 hours',
       description: 'French colonial town with beaches',
@@ -125,7 +125,7 @@ const OutstationDestinations = () => {
     },
       {
     name: 'Trichy',
-    image: 'https://happyridedroptaxi.com/assets/Srirangam-Temple.png',
+    image: 'https://fastridedroptaxi.com/assets/Srirangam-Temple.png',
     category: 'Temple',
     distance: '200 km',
     duration: '5-6 hours',
@@ -136,7 +136,7 @@ const OutstationDestinations = () => {
    },
      {
       name: 'Thanjavur',
-     image: 'https://happyridedroptaxi.com/assets/BrihadisvaraTemple.png',
+     image: 'https://fastridedroptaxi.com/assets/BrihadisvaraTemple.png',
      category: 'Temple',
      distance: '350 km',
      duration: '6-7 hours',
@@ -147,7 +147,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Tirupati',
-    image: 'https://happyridedroptaxi.com/assets/tirupati.png',
+    image: 'https://fastridedroptaxi.com/assets/tirupati.png',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
@@ -158,7 +158,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Coimbatore',
-    image: 'https://happyridedroptaxi.com/assets/coimbatore-isha.png',
+    image: 'https://fastridedroptaxi.com/assets/coimbatore-isha.png',
     category: 'City',
     distance: '210 km',
     duration: '5-6 hours',
@@ -176,7 +176,7 @@ const OutstationDestinations = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Outstation Destinations</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Travel across South India with Happyridedroptaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
+            Travel across South India with Fastridedroptaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
           </p>
         </div>
 
