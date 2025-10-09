@@ -61,35 +61,46 @@ const Fleet = () => {
   ];
 
   return (
-    <section id="fleet" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="fleet" className="py-20 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+      {/* Animated Road Lines */}
+      <div className="absolute inset-0 bg-[url('https://i.imgur.com/Qp1QX2S.png')] bg-center bg-repeat opacity-5"></div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Fleet</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose from our diverse fleet of well-maintained vehicles to match your travel needs and budget.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Experience comfort and reliability — choose the perfect vehicle for your journey.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {vehicles.map((vehicle, index) => (
-            <div key={index} className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300 group">
-              
-              {/* Car Image with Floating + Hover Zoom */}
-              <div className="relative overflow-hidden">
-                <img 
-                  src={vehicle.image} 
-                  alt={`${vehicle.name} - Professional taxi service`}
-                  className="w-full h-48 object-cover animate-float group-hover:scale-105 transition-transform duration-500"
-                  onError={(e) => {
-                    console.error(`Failed to load image for ${vehicle.name}:`, vehicle.image);
-                    e.target.style.display = 'none';
+            <motion.div
+              key={index}
+              className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:border-blue-500 transition-all duration-500 group relative"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.2 }}
+              viewport={{ once: true }}
+            >
+              {/* Moving Car Image */}
+              <div className="relative overflow-hidden h-48 bg-gray-50 flex items-center justify-center">
+                <motion.img
+                  src={vehicle.image}
+                  alt={vehicle.name}
+                  className="h-40 object-contain"
+                  animate={{ x: [0, 10, 0] }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: 'easeInOut'
                   }}
                 />
               </div>
-              
+
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{vehicle.name}</h3>
-                
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{vehicle.name}</h3>
+
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-2">
                     <Users className="h-4 w-4 text-gray-500" />
@@ -101,26 +112,28 @@ const Fleet = () => {
                   </div>
                 </div>
 
-                <div className="space-y-2 mb-4">
-                  {vehicle.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center space-x-2">
+                <ul className="space-y-2 mb-4">
+                  {vehicle.features.map((feature, i) => (
+                    <li key={i} className="flex items-center space-x-2 text-sm text-gray-600">
                       <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      <span className="text-sm text-gray-600">{feature}</span>
-                    </div>
+                      <span>{feature}</span>
+                    </li>
                   ))}
-                </div>
+                </ul>
 
-                {/* Tariff Section */}
-                <div className="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <div className="p-4 bg-gray-50 rounded-lg border border-gray-200 mb-6">
                   <p className="text-sm text-gray-700"><strong>One Way:</strong> {vehicle.tariff.oneWay.ratePerKm}, {vehicle.tariff.oneWay.driverBata}, {vehicle.tariff.oneWay.toll}</p>
                   <p className="text-sm text-gray-700"><strong>Round Trip:</strong> {vehicle.tariff.roundTrip.ratePerKm}, {vehicle.tariff.roundTrip.driverBata}, {vehicle.tariff.roundTrip.toll}</p>
                 </div>
 
-                <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition"
+                >
                   Select Vehicle
-                </button>
+                </motion.button>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
