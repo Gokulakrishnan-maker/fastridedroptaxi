@@ -51,8 +51,8 @@ const Footer = () => {
                 <a href="https://wa.me/917305470462" target="_blank" rel="noopener noreferrer"className="text-gray-300 hover:text-orange-400 transition-colors">WhatsApp Us</a>
               </div>
               <div className="flex items-center space-x-3">
-              <AtSign className="h-5 w-5 text-orange-400 relative top-[1px]" />
-              <span className="text-gray-300 text-base"> fastridedroptaxi.booking@gmail.com</span>
+               <AtSign className="h-4 w-4 text-orange-400" />
+               <span className="text-gray-300 text-base">fastridedroptaxi.booking@gmail.com</span>
               </div>
 
               <div className="flex items-center space-x-3">
