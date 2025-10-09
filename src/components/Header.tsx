@@ -30,11 +30,11 @@ const Header = () => {
               <span className="flex items-center">
               <img
                src="/logo2.png"
-               alt="HappyrideDropTaxi Logo"
+               alt="FastrideDropTaxi Logo"
                className="h-20 w-auto"
                />
               <span className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-               <span className="text-yellow-500">Happyride</span>
+               <span className="text-yellow-500">Fastride</span>
                <span className="text-black">DropTaxi</span>
               </span>
               </span>  
@@ -74,7 +74,7 @@ const Header = () => {
             >
               <Phone className="h-4 w-4" />
             </motion.div>
-            <span className="font-semibold">+91 9087520500</span>
+            <span className="font-semibold">+91 7305470462</span>
           </motion.div>
 
           {/* Mobile Menu Button */}
@@ -108,7 +108,7 @@ const Header = () => {
               {/* Mobile Phone */}
               <div className="flex items-center space-x-2 text-blue-600 bg-blue-50 px-3 py-2 rounded-lg">
                 <Phone className="h-4 w-4 animate-bounce" />
-                <span className="font-semibold">+91 9087520500</span>
+                <span className="font-semibold">+91 7305470462</span>
               </div>
             </nav>
           </motion.div>
