@@ -11,8 +11,8 @@ const FAQ = () => {
       icon: Phone,
       questions: [
         {
-          question: "How can I book a taxi with 1waytaxi?",
-          answer: "You can book through our website, call +91 9087520500, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
+          question: "How can I book a taxi with Fastridedroptaxi?",
+          answer: "You can book through our website, call +91 7305470462, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
         },
         {
           question: "How far in advance can I book a taxi?",
@@ -69,39 +69,39 @@ const FAQ = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ - Happyridedroptaxi | Frequently Asked Questions about Taxi Service</title>
-        <meta name="description" content="1waytaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
-        <meta name="keywords" content="1waytaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
+        <title>FAQ - Fastridedroptaxi | Frequently Asked Questions about Taxi Service</title>
+        <meta name="description" content="Fastridedroptaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
+        <meta name="keywords" content="Fastridedroptaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://1waytaxi.com/faq" />
+        <link rel="canonical" href="https://Fastridedroptaxi.com/faq" />
         
         {/* Open Graph tags */}
-        <meta property="og:title" content="FAQ -  Happyridedroptaxi | Taxi Service Questions & Answers" />
-        <meta property="og:description" content="Get answers to common questions about  Happyridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
+        <meta property="og:title" content="FAQ -  Fastridedroptaxi | Taxi Service Questions & Answers" />
+        <meta property="og:description" content="Get answers to common questions about  Fastridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https:// Happyridedroptaxi.com/faq" />
-        <meta property="og:site_name" content="1waytaxi" />
+        <meta property="og:url" content="https:// Fastridedroptaxi.com/faq" />
+        <meta property="og:site_name" content="Fastridedroptaxi" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="FAQ -  Happyridedroptaxi" />
-        <meta name="twitter:description" content="Get answers to common questions about 1waytaxi booking and service." />
+        <meta name="twitter:title" content="FAQ -  Fastridedroptaxi" />
+        <meta name="twitter:description" content="Get answers to common questions about Fastridedroptaxi booking and service." />
         
         {/* Structured Data for FAQ */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "name": " Happyridedroptaxi FAQ - Frequently Asked Questions",
-            "description": "Common questions and answers about 1waytaxi booking, pricing, and service",
-            "url": "https:// Happyridedroptaxi.com/faq",
+            "name": " Fastridedroptaxi FAQ - Frequently Asked Questions",
+            "description": "Common questions and answers about Fastridedroptaxi booking, pricing, and service",
+            "url": "https:// Fastridedroptaxi.com/faq",
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "How can I book a taxi with  Happyridedroptaxi?",
+                "name": "How can I book a taxi with  Fastridedroptaxi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You can book through our website, call +91 90875 20500 , or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
+                  "text": "You can book through our website, call +91 73054 70462, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
                 }
               },
               {
@@ -123,9 +123,9 @@ const FAQ = () => {
             ],
             "about": {
               "@type": "Organization",
-              "name": " Happyridedroptaxi",
-              "telephone": "+91-9087520500",
-              "email": "happyridedroptaxi@gmail.com"
+              "name": " Fastridedroptaxi",
+              "telephone": "+91-7305470462",
+              "email": "fastridedroptaxi.booking@gmail.com"
             }
           })}
         </script>
@@ -137,7 +137,7 @@ const FAQ = () => {
           <HelpCircle className="h-16 w-16 text-blue-600 mx-auto mb-4" />
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h1>
           <p className="text-xl text-gray-600">
-            Find answers to common questions about 1waytaxi services
+            Find answers to common questions about Fastridedroptaxi services
           </p>
         </div>
 
@@ -189,21 +189,21 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+919087520500" 
+              href="tel:+917305470462" 
               className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <Phone className="inline h-4 w-4 mr-2" />
-              Call +91 9087520500
+              Call +91 7305470462
             </a>
             <a 
-              href="https://wa.me/919087520500" 
+              href="https://wa.me/917305470462" 
               className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2"
             >
               <MessageCircle className="h-4 w-4" />
               <span>WhatsApp</span>
             </a>
             <a 
-              href="mailto:happyridedroptaxi@gmail.com" 
+              href="mailto:fastridedroptaxi.booking@gmail.com" 
               className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors flex items-center space-x-2"
             >
               <AtSign className="h-4 w-4" />
