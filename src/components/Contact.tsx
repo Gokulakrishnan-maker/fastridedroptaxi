@@ -6,13 +6,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+91 9087520500',
+      details: '+91 7305470462',
       description: '24/7 booking and support'
     },
     {
       icon: AtSign,
       title: 'Email Us',
-      details: 'happyridedroptaxi@gmail.com',
+      details: 'fastridedroptaxi.booking@gmail.com',
       description: 'For general Enquiries'
     },
     {
