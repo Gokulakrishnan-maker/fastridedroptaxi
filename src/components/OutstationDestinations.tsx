@@ -170,26 +170,26 @@ const OutstationDestinations = () => {
     
   ];
 
-  return (
+ return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Outstation Destinations</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Travel across South India with Fastridedroptaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
-          </p>	
+          </p>  
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {destinations.map((destination, index) => (
-            <div key={index} className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
+            <div key={index} className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 group">
               <div className="relative overflow-hidden">
                 <img 
                   src={destination.image} 
                   alt={destination.name}
                   className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
                 
                 <div className="absolute top-4 left-4">
                   <div className="bg-white/90 backdrop-blur-sm p-2 rounded-full">
@@ -223,15 +223,15 @@ const OutstationDestinations = () => {
                   <h5 className="font-semibold text-gray-900 mb-3">Popular Attractions:</h5>
                   <div className="grid grid-cols-2 gap-2">
                     {destination.highlights.map((highlight, idx) => (
-                      <div key={idx} className="flex items-center text-sm text-gray-600">
-                        <Star className="h-3 w-3 text-yellow-500 mr-2 flex-shrink-0" />
-                        <span>{highlight}</span>
-                      </div>
+                      <span key={idx} className="inline-flex items-center bg-blue-50 text-blue-600 px-2 py-1 rounded-full text-xs font-medium">
+                        <Star className="h-3 w-3 text-yellow-500 mr-1 flex-shrink-0" />
+                        {highlight}
+                      </span>
                     ))}
                   </div>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center space-x-2 group shadow-lg">
+                <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center space-x-2 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                   <span>Book Trip</span>
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </button>
@@ -244,8 +244,6 @@ const OutstationDestinations = () => {
     </section>
   );
 };
-
 export default OutstationDestinations;
-
 
 
