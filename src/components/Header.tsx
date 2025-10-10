@@ -6,117 +6,126 @@ import { motion } from "framer-motion";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Animation Variants
-  const navItem = {
-    hidden: { opacity: 0, y: -20 },
-    visible: (i) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: i * 0.1, duration: 0.4 },
-    }),
-  };
+ const navItems = ["Home", "Services", "Fleet", "Pricing", "Contact"];
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
+    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-         <motion.div
-            initial={{ opacity: 0, x: -30 }}
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
             <Link to="/" className="flex items-center space-x-3">
-              <span className="flex items-center">
-              <img
-               src="/logo2.png"
-               alt="FastrideDropTaxi Logo"
-               className="h-20 w-auto"
-               />
-              <span className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-               <span className="text-yellow-500">Fastride</span>
-               <span className="text-black">DropTaxi</span>
+              <img src="/logo2.png" alt="FastrideDropTaxi" className="h-16 w-auto" />
+              <span className="text-2xl md:text-3xl font-extrabold">
+                <span className="text-yellow-500">Fastride</span>
+                <span className="text-black">DropTaxi</span>
               </span>
-              </span>  
-             </Link>
-            </motion.div>
+            </Link>
+          </motion.div>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex space-x-8">
-            {["Home", "Services", "Fleet", "Pricing", "Contact"].map(
-              (item, i) => (
-                <motion.a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
-                  variants={navItem}
-                  initial="hidden"
-                  animate="visible"
-                  custom={i}
-                  className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
-                >
-                  {item}
-                </motion.a>
-              )
-            )}
+          <nav className="hidden md:flex space-x-6">
+            {navItems.map((item, i) => (
+              <motion.a
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.1, duration: 0.3 }}
+                className="text-gray-700 hover:text-yellow-500 font-medium transition-all hover:scale-105"
+              >
+                {item}
+              </motion.a>
+            ))}
+            {/* CTA Button */}
+            <motion.a
+              href="#contact"
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: navItems.length * 0.1, duration: 0.3 }}
+              className="ml-4 bg-yellow-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-yellow-600 transition-colors"
+            >
+              Book Now
+            </motion.a>
           </nav>
 
-          {/* Phone Number with Pulse Animation */}
-          <motion.div
-            className="hidden md:flex items-center space-x-2 text-blue-600 bg-blue-50 px-3 py-2 rounded-lg"
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-          >
+          {/* Contact Info */}
+          <div className="hidden md:flex items-center space-x-4">
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
+              className="flex items-center bg-blue-50 px-3 py-2 rounded-lg cursor-pointer hover:bg-blue-100 transition"
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-4 w-4 text-blue-600 mr-2" />
+              <span className="text-blue-600 font-semibold">+91 7305470462</span>
             </motion.div>
-            <span className="font-semibold">+91 7305470462</span>
-          </motion.div>
+
+            <motion.div
+              className="flex items-center bg-green-50 px-3 py-2 rounded-lg cursor-pointer hover:bg-green-100 transition"
+              whileHover={{ scale: 1.05 }}
+            >
+              <MessageCircle className="h-4 w-4 text-green-600 mr-2" />
+              <span className="text-green-600 font-semibold">WhatsApp</span>
+            </motion.div>
+          </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden"
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
 
-        {/* Mobile Dropdown */}
-        {isMenuOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="md:hidden py-4 border-t"
-          >
-            <nav className="flex flex-col space-y-4">
-              {["Home", "Services", "Fleet", "Pricing", "Contact"].map((item) => (
+        {/* Mobile Menu */}
+        <AnimatePresence>
+          {isMenuOpen && (
+            <motion.div
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              className="md:hidden py-4 border-t"
+            >
+              <nav className="flex flex-col space-y-4">
+                {navItems.map((item) => (
+                  <a
+                    key={item}
+                    href={`#${item.toLowerCase()}`}
+                    className="text-gray-700 hover:text-yellow-500 font-medium transition-all"
+                  >
+                    {item}
+                  </a>
+                ))}
                 <a
-                  key={item}
-                  href={`#${item.toLowerCase()}`}
-                  className="text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
+                  href="#contact"
+                  className="bg-yellow-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-yellow-600 transition-colors"
                 >
-                  {item}
+                  Book Now
                 </a>
-              ))}
 
-              {/* Mobile Phone */}
-              <div className="flex items-center space-x-2 text-blue-600 bg-blue-50 px-3 py-2 rounded-lg">
-                <Phone className="h-4 w-4 animate-bounce" />
-                <span className="font-semibold">+91 7305470462</span>
-              </div>
-            </nav>
-          </motion.div>
-        )}
+                {/* Mobile Contacts */}
+                <div className="flex flex-col space-y-2 mt-2">
+                  <div className="flex items-center bg-blue-50 px-3 py-2 rounded-lg">
+                    <Phone className="h-4 w-4 text-blue-600 mr-2" />
+                    <span className="text-blue-600 font-semibold">+91 7305470462</span>
+                  </div>
+                  <div className="flex items-center bg-green-50 px-3 py-2 rounded-lg">
+                    <MessageCircle className="h-4 w-4 text-green-600 mr-2" />
+                    <span className="text-green-600 font-semibold">WhatsApp</span>
+                  </div>
+                </div>
+              </nav>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </header>
   );
 };
 
 export default Header;
-
