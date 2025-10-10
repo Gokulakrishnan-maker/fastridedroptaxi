@@ -2,7 +2,7 @@
 
 // Telegram Bot Configuration
 const TELEGRAM_BOTS = [
-  { token: '8275666233:AAGEPTLZUWgzQt6-LUyQidHV-QOG4Q5dMM0', chatId: '8486626603' },
+  { token: '8396963493:AAHadDsjI4Tkby5zkrsZo4EuC_97GdtkG8M', chatId: '7089730908' },
   ];
 
 // API base URL for backend
