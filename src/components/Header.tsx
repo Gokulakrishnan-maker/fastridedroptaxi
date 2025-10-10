@@ -8,7 +8,7 @@ const Header = () => {
 
  const navItems = ["Home", "Services", "Fleet", "Pricing", "Contact"];
 
-  return (
+ return (
     <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
@@ -41,20 +41,10 @@ const Header = () => {
                 {item}
               </motion.a>
             ))}
-            {/* CTA Button */}
-            <motion.a
-              href="#contact"
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: navItems.length * 0.1, duration: 0.3 }}
-              className="ml-4 bg-yellow-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-yellow-600 transition-colors"
-            >
-              Book Now
-            </motion.a>
           </nav>
 
-          {/* Contact Info */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* Optional Phone Info */}
+          <div className="hidden md:flex items-center">
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
@@ -62,14 +52,6 @@ const Header = () => {
             >
               <Phone className="h-4 w-4 text-blue-600 mr-2" />
               <span className="text-blue-600 font-semibold">+91 7305470462</span>
-            </motion.div>
-
-            <motion.div
-              className="flex items-center bg-green-50 px-3 py-2 rounded-lg cursor-pointer hover:bg-green-100 transition"
-              whileHover={{ scale: 1.05 }}
-            >
-              <MessageCircle className="h-4 w-4 text-green-600 mr-2" />
-              <span className="text-green-600 font-semibold">WhatsApp</span>
             </motion.div>
           </div>
 
@@ -101,23 +83,11 @@ const Header = () => {
                     {item}
                   </a>
                 ))}
-                <a
-                  href="#contact"
-                  className="bg-yellow-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-yellow-600 transition-colors"
-                >
-                  Book Now
-                </a>
 
-                {/* Mobile Contacts */}
-                <div className="flex flex-col space-y-2 mt-2">
-                  <div className="flex items-center bg-blue-50 px-3 py-2 rounded-lg">
-                    <Phone className="h-4 w-4 text-blue-600 mr-2" />
-                    <span className="text-blue-600 font-semibold">+91 7305470462</span>
-                  </div>
-                  <div className="flex items-center bg-green-50 px-3 py-2 rounded-lg">
-                    <MessageCircle className="h-4 w-4 text-green-600 mr-2" />
-                    <span className="text-green-600 font-semibold">WhatsApp</span>
-                  </div>
+                {/* Optional Mobile Phone */}
+                <div className="flex items-center bg-blue-50 px-3 py-2 rounded-lg mt-2">
+                  <Phone className="h-4 w-4 text-blue-600 mr-2" />
+                  <span className="text-blue-600 font-semibold">+91 7305470462</span>
                 </div>
               </nav>
             </motion.div>
