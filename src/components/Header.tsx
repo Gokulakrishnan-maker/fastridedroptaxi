@@ -18,13 +18,18 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Link to="/" className="flex items-center space-x-3">
-              <img src="/logo5.png" alt="FastrideDropTaxi" className="h-16 w-auto" />
+              <div
+              onClick={() => {
+              window.location.href = "/";
+               }}
+              className="flex items-center space-x-3 cursor-pointer"
+              >
+             <img src="/logo5.png" alt="FastrideDropTaxi" className="h-16 w-auto" />
               <span className="text-2xl md:text-3xl font-extrabold">
                 <span className="text-yellow-500">Fastride</span>
                 <span className="text-black">DropTaxi</span>
               </span>
-            </Link>
+            </div>
           </motion.div>
 
           {/* Desktop Menu */}
