@@ -85,7 +85,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Pondicherry',
-      image: 'https://fastridedroptaxi.com/assets/pondicherry.png',
+      image: 'https://fastridedroptaxi.com/assets/pondicherry.avif',
       distance: '380 km',
       duration: '6-7 hours',
       description: 'French colonial town with beaches',
