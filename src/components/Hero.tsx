@@ -418,17 +418,17 @@ const Hero = () => {
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div
-      className="absolute inset-0 bg-center bg-no-repeat sm:bg-cover bg-contain"
-      style={{
-      backgroundImage: 'url("https://fastridedroptaxi.com/images/image1.avif")',
-      }}
-      >
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-yellow-900/60"></div>
-      </div>
+       className="absolute inset-0 bg-no-repeat bg-center bg-cover"
+       style={{
+       backgroundImage: 'url("https://fastridedroptaxi.com/images/image1.avif")',
+       backgroundSize: 'cover',       // fills the section nicely
+       backgroundPosition: 'center',  // keeps the focus in the middle
+       backgroundRepeat: 'no-repeat',
+       }}
+       >
+     <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/40 to-yellow-900/30"></div>
+     </div>
 
-        
-      
-     
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
        <div className="text-white">
