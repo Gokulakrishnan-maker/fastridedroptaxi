@@ -417,14 +417,15 @@ const Hero = () => {
       
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-       className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-       style={{
-       backgroundImage: 'url("https://fastridedroptaxi.com/images/image1.avif")',
-       }}
-       >
+      <div
+      className="absolute inset-0 bg-center bg-no-repeat sm:bg-cover bg-contain"
+      style={{
+      backgroundImage: 'url("https://fastridedroptaxi.com/images/image1.avif")',
+      }}
+      >
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-yellow-900/60"></div>
       </div>
+
         
       
      
