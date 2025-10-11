@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
      name: 'Sumathi',
      role: 'Business Executive',
-     image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400', 
+     emoji: '👩',
      rating: 5,
      text: 'Fastridedroptaxi has been my go-to taxi service for business trips. Always punctual, professional drivers, and clean vehicles. Highly recommended!'
    },
