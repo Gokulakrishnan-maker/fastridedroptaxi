@@ -26,6 +26,20 @@ const Testimonials = () => {
      rating: 5,
      text: 'Safe, reliable, and comfortable rides every time. I feel secure traveling with Fastridedroptaxi, especially during late night trips.'
     }
+    {
+      name: 'Ramesh Kumar',
+      role: 'Business Traveler',
+      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+      rating: 5,
+      text: 'Their punctuality and clean cars make my airport trips stress-free. Excellent service every single time!'
+     },
+    {
+    name: 'priyanka',
+    role: 'Frequent Commuter',
+    image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400',
+    rating: 5,
+    text: 'Friendly drivers and smooth rides. I always choose Fastridedroptaxi for outstation and city travel!'
+    }
   ];
 
   return (
