@@ -5,7 +5,7 @@ const Testimonials = () => {
   const testimonials = [
     {
      name: 'Sumathi',
-     role: 'Business Executive',
+     role: 'Chennai to Madurai',
      emoji: '👩',
      rating: 5,
      text: 'Fastridedroptaxi has been my go-to taxi service for business trips. Always punctual, professional drivers, and clean vehicles. Highly recommended!'
@@ -13,32 +13,39 @@ const Testimonials = () => {
 
     {
      name: 'Murugavelu',
-     role: 'Frequent Traveler',
-     image: 'https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=400',
+     role: 'Coimbatore to Salem',
+     emoji: '👨',
      rating: 5,
      text: 'Fastridedroptaxi provides excellent service! The drivers are courteous and knowledgeable about the city. The booking system is seamless and pricing is very fair.'
     },
     
     {
      name: 'Kavitha',
-     role: 'Local Resident',
-     image: 'https://images.pexels.com/photos/1704489/pexels-photo-1704489.jpeg?auto=compress&cs=tinysrgb&w=400',
+     role: 'Trichy to Chennai',
+     emoji: '👩',
      rating: 5,
      text: 'Safe, reliable, and comfortable rides every time. I feel secure traveling with Fastridedroptaxi, especially during late night trips.'
     },
     {
       name: 'Ramesh Kumar',
-      role: 'Business Traveler',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
+      role: 'Madurai to Kanyakumari',
+      emoji: '👨',
       rating: 5,
       text: 'Their punctuality and clean cars make my airport trips stress-free. Excellent service every single time!'
      },
     {
     name: 'priyanka',
-    role: 'Frequent Commuter',
-    image: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400',
+    role: 'Salem to Coimbatore',
+    emoji: '👩',
     rating: 5,
     text: 'Friendly drivers and smooth rides. I always choose Fastridedroptaxi for outstation and city travel!'
+    },
+    {
+      name: 'Meera kannan',
+      role: 'Madurai to Coimbatore',
+      emoji: '👩',
+      rating: 5,
+      text: 'Emergency travel for a medical appointment. They arranged a taxi within 30 minutes. Very understanding and accommodating. Truly a lifesaver service!'
     }
   ];
 
