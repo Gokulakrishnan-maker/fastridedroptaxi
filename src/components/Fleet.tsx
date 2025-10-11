@@ -121,10 +121,13 @@ const Fleet = () => {
          </div>
 
          {/* Visible clickable mobile number */}
-            <p className="flex items-center text-blue-600 font-semibold">
-            <Phone className="w-5 h-5 mr-2" />
-           <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
-          </p>
+         <a
+          href={`tel:${phoneNumber}`}
+         className="flex items-center justify-center bg-blue-600 text-white py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors"
+         >
+         <Phone className="w-5 h-5 mr-2" />
+         {phoneNumber}
+          </a>
          </div>
          </div>
           ))}
