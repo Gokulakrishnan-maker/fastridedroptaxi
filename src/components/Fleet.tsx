@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Luggage, Wifi, Snowflake } from 'lucide-react';
+import { Users, Luggage, Wifi, Snowflake, Phone } from 'lucide-react';
 
 const Fleet = () => {
   const vehicles = [
