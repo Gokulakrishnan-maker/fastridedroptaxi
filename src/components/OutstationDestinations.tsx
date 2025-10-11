@@ -5,7 +5,7 @@ const OutstationDestinations = () => {
   const destinations = [
     {
       name: 'Chennai',
-      image: 'https://fastridedroptaxi.com/assets/chennai.png',
+      image: 'https://fastridedroptaxi.com/assets/chennai.avif',
       distance: '500 km',
       duration: '7-8 hours',
       description: 'Capital city with Marina Beach and IT corridor',
@@ -65,7 +65,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Mysore',
-      image: 'https://fastridedroptaxi.com/assets/mysore-palace.png',
+      image: 'https://fastridedroptaxi.com/assets/mysore-palace.avif',
       distance: '280 km',
       duration: '5-6 hours',
       description: 'City of Palaces with rich heritage',
@@ -95,7 +95,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Salem',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVPal-LjTPjgheGw6SAFyoGNxZE4t3bLUtmw&s',
+      image: 'https://fastridedroptaxi.com/assets/salem.avif',
       distance: '165 km',
       duration: '3 hours',
       description: 'A vibrant city in Tamil Nadu, known for hills, steel, and mangoes.',
@@ -105,7 +105,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Rameshwaram',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuAHXKMueQqj8hJT_9c-3wEIQkeKAwNM84Mg&s',
+      image: 'https://fastridedroptaxi.com/assets/rameshwaram.avif',
       distance: '380 km',
       duration: '6 hours',
       description: 'Holy island with Ramanathaswamy Temple',
@@ -158,7 +158,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Coimbatore',
-    image: 'https://fastridedroptaxi.com/assets/coimbatore-isha.png',
+    image: 'https://fastridedroptaxi.com/assets/coimbatore-isha.avif',
     category: 'City',
     distance: '210 km',
     duration: '5-6 hours',
