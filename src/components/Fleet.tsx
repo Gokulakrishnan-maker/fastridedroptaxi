@@ -72,55 +72,56 @@ const Fleet = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {vehicles.map((vehicle, index) => (
-            <div key={index} className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300 group">
-              
-              {/* Car Image with Floating + Hover Zoom */}
-              <div className="relative overflow-hidden">
-                <img 
-                  src={vehicle.image} 
-                  alt={`${vehicle.name} - Professional taxi service`}
-                  className="w-full h-48 object-cover animate-float group-hover:scale-105 transition-transform duration-500"
-                  onError={(e) => {
-                    console.error(`Failed to load image for ${vehicle.name}:`, vehicle.image);
-                    e.target.style.display = 'none';
-                  }}
-                />
-              </div>
-              
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">{vehicle.name}</h3>
-                
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-2">
-                    <Users className="h-4 w-4 text-gray-500" />
-                    <span className="text-sm text-gray-600">{vehicle.passengers}</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Luggage className="h-4 w-4 text-gray-500" />
-                    <span className="text-sm text-gray-600">{vehicle.luggage}</span>
-                  </div>
-                </div>
+        <div
+         key={index}
+       className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:-translate-y-2 group"
+        >
+  {/* Car Image with Hover Zoom */}
+  <div className="relative overflow-hidden">
+    <img
+      src={vehicle.image}
+      alt={`${vehicle.name} - Professional taxi service`}
+      className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+      onError={(e) => {
+        console.error(`Failed to load image for ${vehicle.name}:`, vehicle.image);
+        e.target.style.display = 'none';
+      }}
+    />
+  </div>
 
-                <div className="space-y-2 mb-4">
-                  {vehicle.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center space-x-2">
-                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      <span className="text-sm text-gray-600">{feature}</span>
-                    </div>
-                  ))}
-                </div>
+  <div className="p-6">
+    <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">{vehicle.name}</h3>
 
-                {/* Tariff Section */}
-                <div className="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-                  <p className="text-sm text-gray-700"><strong>One Way:</strong> {vehicle.tariff.oneWay.ratePerKm}, {vehicle.tariff.oneWay.driverBata}, {vehicle.tariff.oneWay.toll}</p>
-                  <p className="text-sm text-gray-700"><strong>Round Trip:</strong> {vehicle.tariff.roundTrip.ratePerKm}, {vehicle.tariff.roundTrip.driverBata}, {vehicle.tariff.roundTrip.toll}</p>
-                </div>
+    <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center space-x-2">
+        <Users className="h-4 w-4 text-gray-500 group-hover:text-blue-600 transition-colors" />
+        <span className="text-sm text-gray-600">{vehicle.passengers}</span>
+      </div>
+      <div className="flex items-center space-x-2">
+        <Luggage className="h-4 w-4 text-gray-500 group-hover:text-blue-600 transition-colors" />
+        <span className="text-sm text-gray-600">{vehicle.luggage}</span>
+      </div>
+    </div>
 
-                <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  Select Vehicle
-                </button>
-              </div>
-            </div>
+    <div className="space-y-2 mb-4">
+      {vehicle.features.map((feature, featureIndex) => (
+        <div key={featureIndex} className="flex items-center space-x-2">
+          <div className="w-2 h-2 bg-green-500 rounded-full group-hover:bg-blue-500 transition-colors"></div>
+          <span className="text-sm text-gray-600">{feature}</span>
+         </div>
+         ))}
+        </div>
+
+         <div className="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+         <p className="text-sm text-gray-700"><strong>One Way:</strong> {vehicle.tariff.oneWay.ratePerKm}, {vehicle.tariff.oneWay.driverBata}, {vehicle.tariff.oneWay.toll}</p>
+         <p className="text-sm text-gray-700"><strong>Round Trip:</strong> {vehicle.tariff.roundTrip.ratePerKm}, {vehicle.tariff.roundTrip.driverBata}, {vehicle.tariff.roundTrip.toll}</p>
+         </div>
+
+         <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+         Select Vehicle
+         </button>
+         </div>
+         </div>
           ))}
         </div>
       </div>
