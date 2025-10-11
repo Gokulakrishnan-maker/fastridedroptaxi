@@ -5,7 +5,7 @@ const Fleet = () => {
   const vehicles = [
     {
       name: 'SEDAN',
-      image: 'https://fastridedroptaxi.com/assets/sedan.png',
+      image: 'https://fastridedroptaxi.com/assets/sedan.avif',
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Phone Charger'],
@@ -16,7 +16,7 @@ const Fleet = () => {
     },
     {
       name: 'ETIOS',
-      image: 'https://fastridedroptaxi.com/assets/etios.png',
+      image: 'https://fastridedroptaxi.com/assets/etios.avif',
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Comfortable Seating'],
@@ -27,7 +27,7 @@ const Fleet = () => {
     },
     {
       name: 'SUV',
-      image: 'https://fastridedroptaxi.com/assets/suv.png',
+      image: 'https://fastridedroptaxi.com/assets/suv.avif',
       passengers: '1-6',
       luggage: '4 bags',
       features: ['Luxury Interior', 'WiFi Available', 'Extra Space'],
@@ -38,7 +38,7 @@ const Fleet = () => {
     },
     {
       name: 'INNOVA',
-      image: 'https://fastridedroptaxi.com/assets/innova.png',
+      image: 'https://fastridedroptaxi.com/assets/innova.avif',
       passengers: '1-8',
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
@@ -49,7 +49,7 @@ const Fleet = () => {
     },
     {
       name: 'INNOVA CRYSTA',
-      image: 'https://fastridedroptaxi.com/assets/innova-crysta.png',
+      image: 'https://fastridedroptaxi.com/assets/innova-crysta.avif',
       passengers: '1-8',
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
