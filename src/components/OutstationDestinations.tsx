@@ -75,7 +75,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Munnar',
-      image: 'https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://fastridedroptaxi.com/assets/munnar.avif',
       distance: '160 km',
       duration: '4 hours',
       description: 'Kerala hill station with spice plantations',
