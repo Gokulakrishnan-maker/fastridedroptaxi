@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Users, Luggage, Wifi, Snowflake } from 'lucide-react';
 
 const Fleet = () => {
@@ -60,6 +61,12 @@ const Fleet = () => {
     }
   ];
 
+  
+  const handleSelectVehicle = (vehicle) => {
+    navigate('/booking', { state: { selectedVehicle: vehicle } });
+  };
+
+
  return (
     <section id="fleet" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -117,9 +124,12 @@ const Fleet = () => {
          <p className="text-sm text-gray-700"><strong>Round Trip:</strong> {vehicle.tariff.roundTrip.ratePerKm}, {vehicle.tariff.roundTrip.driverBata}, {vehicle.tariff.roundTrip.toll}</p>
          </div>
 
-         <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-         Select Vehicle
-         </button>
+         <button
+           onClick={() => handleSelectVehicle(vehicle)}
+            className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+          Select Vehicle
+          </button>
          </div>
          </div>
           ))}
