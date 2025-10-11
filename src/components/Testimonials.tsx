@@ -64,21 +64,17 @@ const Testimonials = () => {
               </div>
               
               <p className="text-gray-700 mb-6 leading-relaxed">"{testimonial.text}"</p>
-              
+
               <div className="flex items-center space-x-4">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <span className="text-3xl">{testimonial.emoji}</span>
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
+           ))}
+       </div>
       </div>
     </section>
   );
