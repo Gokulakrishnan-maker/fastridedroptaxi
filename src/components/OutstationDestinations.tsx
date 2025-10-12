@@ -1,7 +1,8 @@
-import React from 'react';
-import { MapPin, Clock, Star, ArrowRight, Plane, Mountain, Building, Waves, Phone, MessageCircle } from 'lucide-react';
+import React, { useState } from 'react';
+import { MapPin, Clock, Star, ArrowRight, Plane, Mountain, Building, Waves, Phone, MessageCircle, X } from 'lucide-react';
 
 const OutstationDestinations = () => {
+  const [selectedDestination, setSelectedDestination] = useState(null);
   const destinations = [
     {
       name: 'Chennai',
@@ -170,14 +171,14 @@ const OutstationDestinations = () => {
     
   ];
 
- return (
+  return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Outstation Destinations</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Travel across South India with Fastridedroptaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
-          </p>  
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -190,17 +191,14 @@ const OutstationDestinations = () => {
                   className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
-                
                 <div className="absolute top-4 left-4">
                   <div className="bg-white/90 backdrop-blur-sm p-2 rounded-full">
                     <destination.icon className="h-5 w-5 text-blue-600" />
                   </div>
                 </div>
-                
                 <div className="absolute top-4 right-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
                   {destination.fare}
                 </div>
-                
                 <div className="absolute bottom-4 left-4 text-white">
                   <h4 className="text-2xl font-bold mb-1">{destination.name}</h4>
                   <div className="flex items-center space-x-4 text-sm">
@@ -215,10 +213,9 @@ const OutstationDestinations = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <p className="text-gray-600 mb-4 leading-relaxed">{destination.description}</p>
-                
                 <div className="mb-6">
                   <h5 className="font-semibold text-gray-900 mb-3">Popular Attractions:</h5>
                   <div className="grid grid-cols-2 gap-2">
@@ -231,19 +228,75 @@ const OutstationDestinations = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center space-x-2 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
-                  <span>Book Trip</span>
-                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </button>
+                <div className="flex space-x-2">
+                  <button
+                    onClick={() => setSelectedDestination(destination)}
+                    className="flex-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-3 rounded-xl font-bold hover:from-blue-700 hover:to-indigo-700 transition-all flex items-center justify-center space-x-2 shadow-lg hover:shadow-2xl transform hover:-translate-y-1"
+                  >
+                    <span>Book Trip</span>
+                    <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                  </button>
+
+                  <a
+                    href={`tel:${destination.phone}`}
+                    className="flex-1 bg-green-600 text-white py-3 rounded-xl font-bold flex items-center justify-center hover:bg-green-700 transition-all shadow-lg hover:shadow-2xl"
+                  >
+                    Call Now
+                  </a>
+                </div>
               </div>
             </div>
           ))}
         </div>
-
       </div>
+
+      {/* Modal */}
+      {selectedDestination && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-2xl max-w-lg w-full p-6 relative shadow-2xl">
+            <button
+              onClick={() => setSelectedDestination(null)}
+              className="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
+            >
+              <X className="h-6 w-6" />
+            </button>
+            <h3 className="text-2xl font-bold mb-4">{selectedDestination.name}</h3>
+            <img 
+              src={selectedDestination.image} 
+              alt={selectedDestination.name}
+              className="w-full h-56 object-cover rounded-xl mb-4"
+            />
+            <p className="text-gray-700 mb-2">{selectedDestination.description}</p>
+            <p className="text-gray-700 mb-2"><strong>Distance:</strong> {selectedDestination.distance}</p>
+            <p className="text-gray-700 mb-2"><strong>Duration:</strong> {selectedDestination.duration}</p>
+            <p className="text-gray-700 mb-4"><strong>Fare:</strong> {selectedDestination.fare}</p>
+            <h5 className="font-semibold text-gray-900 mb-2">Popular Attractions:</h5>
+            <ul className="list-disc list-inside text-gray-700 mb-4">
+              {selectedDestination.highlights.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
+            <div className="flex space-x-2">
+              <a
+                href={`tel:${selectedDestination.phone}`}
+                className="flex-1 bg-green-600 text-white py-3 rounded-xl font-bold flex items-center justify-center hover:bg-green-700 transition-all"
+              >
+                Call Now
+              </a>
+              <button
+                onClick={() => setSelectedDestination(null)}
+                className="flex-1 bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700 transition-all"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
+
 export default OutstationDestinations;
 
 
