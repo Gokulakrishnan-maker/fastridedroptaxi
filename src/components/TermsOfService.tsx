@@ -10,13 +10,13 @@ const TermsOfService = () => {
         <meta name="description" content="Fastridedroptaxi Terms of Service - Booking terms, cancellation policy, payment terms, and service agreement for taxi booking across Tamil Nadu. Licensed taxi service." />
         <meta name="keywords" content="Fastridedroptaxi terms of service, taxi booking terms, cancellation policy, payment terms, Tamil Nadu taxi service, licensed taxi operator" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://Fastridedroptaxi.com/terms-of-service" />
+        <link rel="canonical" href="https://www.Fastridedroptaxi.com/terms-of-service" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Terms of Service - Fastridedroptaxi | Taxi Service Terms" />
         <meta property="og:description" content="Fastridedroptaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://Fastridedroptaxi.com/terms-of-service" />
+        <meta property="og:url" content="https://www.Fastridedroptaxi.com/terms-of-service" />
         <meta property="og:site_name" content="Fastridedroptaxi" />
         
         {/* Twitter Card tags */}
