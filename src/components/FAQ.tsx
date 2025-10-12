@@ -73,13 +73,13 @@ const FAQ = () => {
         <meta name="description" content="Fastridedroptaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
         <meta name="keywords" content="Fastridedroptaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://Fastridedroptaxi.com/faq" />
+        <link rel="canonical" href="https://www.Fastridedroptaxi.com/faq" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="FAQ -  Fastridedroptaxi | Taxi Service Questions & Answers" />
         <meta property="og:description" content="Get answers to common questions about  Fastridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https:// Fastridedroptaxi.com/faq" />
+        <meta property="og:url" content="https://www.Fastridedroptaxi.com/faq" />
         <meta property="og:site_name" content="Fastridedroptaxi" />
         
         {/* Twitter Card tags */}
@@ -94,7 +94,7 @@ const FAQ = () => {
             "@type": "FAQPage",
             "name": " Fastridedroptaxi FAQ - Frequently Asked Questions",
             "description": "Common questions and answers about Fastridedroptaxi booking, pricing, and service",
-            "url": "https:// Fastridedroptaxi.com/faq",
+            "url": "https://www.Fastridedroptaxi.com/faq",
             "mainEntity": [
               {
                 "@type": "Question",
