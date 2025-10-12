@@ -6,7 +6,7 @@ const OutstationDestinations = () => {
   const destinations = [
     {
       name: 'Chennai',
-      image: 'https://fastridedroptaxi.com/assets/chennai.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/chennai.avif',
       distance: '500 km',
       duration: '7-8 hours',
       description: 'Capital city with Marina Beach and IT corridor',
@@ -16,7 +16,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Bangalore',
-      image: 'https://fastridedroptaxi.com/assets/bangolore.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/bangolore.avif',
       distance: '360 km',
       duration: '6-7 hours',
       description: 'Silicon Valley of India with gardens and tech hubs',
@@ -26,7 +26,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Ooty',
-      image: 'https://fastridedroptaxi.com/assets/ooty-hillstation.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/ooty-hillstation.avif',
       distance: '85 km',
       duration: '2.5 hours',
       description: 'Queen of Hill Stations with tea gardens',
@@ -36,7 +36,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kodaikanal',
-      image: 'https://fastridedroptaxi.com/assets/kodaikanal-hillstation.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/kodaikanal-hillstation.avif',
       distance: '180 km',
       duration: '4 hours',
       description: 'Princess of Hill Stations with pristine lakes',
@@ -46,7 +46,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://fastridedroptaxi.com/assets/meenakshi-amman-temple.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/meenakshi-amman-temple.avif',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
@@ -56,7 +56,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kanyakumari',
-      image: 'https://fastridedroptaxi.com/assets/kanyakumari.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/kanyakumari.avif',
       distance: '450 km',
       duration: '8-9 hours',
       description: 'Southernmost tip with Thiruvalluvar Statue',
@@ -66,7 +66,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Mysore',
-      image: 'https://fastridedroptaxi.com/assets/mysore-palace.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/mysore-palace.avif',
       distance: '280 km',
       duration: '5-6 hours',
       description: 'City of Palaces with rich heritage',
@@ -76,7 +76,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Munnar',
-      image: 'https://fastridedroptaxi.com/assets/munnar.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/munnar.avif',
       distance: '160 km',
       duration: '4 hours',
       description: 'Kerala hill station with spice plantations',
@@ -86,7 +86,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Pondicherry',
-      image: 'https://fastridedroptaxi.com/assets/pondicherry.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/pondicherry.avif',
       distance: '380 km',
       duration: '6-7 hours',
       description: 'French colonial town with beaches',
@@ -96,7 +96,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Salem',
-      image: 'https://fastridedroptaxi.com/assets/salem.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/salem.avif',
       distance: '165 km',
       duration: '3 hours',
       description: 'A vibrant city in Tamil Nadu, known for hills, steel, and mangoes.',
@@ -106,7 +106,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Rameshwaram',
-      image: 'https://fastridedroptaxi.com/assets/rameshwaram.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/rameshwaram.avif',
       distance: '380 km',
       duration: '6 hours',
       description: 'Holy island with Ramanathaswamy Temple',
@@ -116,7 +116,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Cochin (Kochi)',
-      image: 'https://fastridedroptaxi.com/assets/cochin.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/cochin.avif',
       distance: '165 km',
       duration: '4-5 hours',
       description: 'Queen of Arabian Sea with backwaters',
@@ -126,7 +126,7 @@ const OutstationDestinations = () => {
     },
       {
     name: 'Trichy',
-    image: 'https://fastridedroptaxi.com/assets/Srirangam-Temple.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/Srirangam-Temple.avif',
     category: 'Temple',
     distance: '200 km',
     duration: '5-6 hours',
@@ -137,7 +137,7 @@ const OutstationDestinations = () => {
    },
      {
       name: 'Thanjavur',
-     image: 'https://fastridedroptaxi.com/assets/BrihadisvaraTemple.avif',
+     image: 'https://www.fastridedroptaxi.com/assets/BrihadisvaraTemple.avif',
      category: 'Temple',
      distance: '350 km',
      duration: '6-7 hours',
@@ -148,7 +148,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Tirupati',
-    image: 'https://fastridedroptaxi.com/assets/tirupati.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/tirupati.avif',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
@@ -159,7 +159,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Coimbatore',
-    image: 'https://fastridedroptaxi.com/assets/coimbatore-isha.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/coimbatore-isha.avif',
     category: 'City',
     distance: '210 km',
     duration: '5-6 hours',
