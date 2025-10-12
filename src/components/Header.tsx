@@ -9,14 +9,7 @@ const Header = () => {
  const navItems = ["Home", "Services", "Fleet", "Pricing", "Contact"];
 
  return (
-  <header className="relative sticky top-0 z-50 shadow-lg">
-  {/* Animated Gradient Background */}
-    <motion.div
-    className="absolute inset-0 -z-10 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600"
-    animate={{ backgroundPositionX: ["0%", "100%", "0%"] }}
-    transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-    style={{ backgroundSize: "200% 100%" }}
-    />
+  <header className="sticky top-0 z-50 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 shadow-lg">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center py-4 relative">
         {/* Logo with Tagline */}
