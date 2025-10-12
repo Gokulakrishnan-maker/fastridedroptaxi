@@ -47,13 +47,13 @@ const Hero = () => {
   const vehicles = bookingForm.tripType === "roundtrip"
   ? [
       { name: "SEDAN", rate: 13, image: '🚗' },
-      { name: "ETIOS", rate: 14, image: '🚗' },
+      { name: "ETIOS", rate: 13, image: '🚗' },
       { name: "SUV", rate: 18, image: '🚙' },
       { name: "INNOVA", rate: 19, image: '🚐' },
     ]
   : [
       { name: "SEDAN", rate: 14, image: '🚗' },
-      { name: "ETIOS", rate: 15, image: '🚗' },
+      { name: "ETIOS", rate: 14, image: '🚗' },
       { name: "SUV", rate: 19, image: '🚙' },
       { name: "INNOVA", rate: 20, image: '🚐' },
     ];
