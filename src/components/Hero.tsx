@@ -341,15 +341,15 @@ const Hero = () => {
         <meta property="og:title" content="Fastridedroptaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka" />
         <meta property="og:description" content="Safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://Fastridedroptaxi.com/" />
+        <meta property="og:url" content="https://www.fastridedroptaxi.com/" />
         <meta property="og:site_name" content="Fastridedroptaxi" />
-        <meta property="og:image" content="https://Fastridedroptaxi.com/image.png" />
+        <meta property="og:image" content="https://www.fastridedroptaxi.com/image.png" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fastridedroptaxi - Reliable Taxi Service Tamil Nadu" />
         <meta name="twitter:description" content="Book safe, reliable taxi service across Tamil Nadu. 24/7 availability with transparent pricing." />
-        <meta name="twitter:image" content="https://Fastridedroptaxi.com/image.png" />
+        <meta name="twitter:image" content="https://www.Fastridedroptaxi.com/image.png" />
         
         {/* Local Business Structured Data */}
         <script type="application/ld+json">
@@ -358,7 +358,7 @@ const Hero = () => {
             "@type": "LocalBusiness",
             "name": "Fastridedroptaxi",
             "description": "Professional taxi service across Tamil Nadu with 24/7 availability, transparent pricing, and reliable drivers",
-            "url": "https://Fastridedroptaxi.com",
+            "url": "https://www.Fastridedroptaxi.com",
             "telephone": "+91-7305470462",
             "email": "Fastridedroptaxi@gmail.com",
             "address": {
@@ -420,7 +420,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-contain sm:bg-cover bg-top bg-no-repeat"
          style={{
-          backgroundImage: 'url("https://fastridedroptaxi.com/images/image1.avif")',
+          backgroundImage: 'url("https://www.fastridedroptaxi.com/images/image1.avif")',
         }}
         >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-yellow-900/60"></div>
