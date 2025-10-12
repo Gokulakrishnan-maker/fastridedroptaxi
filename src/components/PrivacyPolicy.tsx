@@ -10,13 +10,13 @@ const PrivacyPolicy = () => {
         <meta name="description" content="Fastridedroptaxi  Privacy Policy - Learn how we protect your personal information, location data, and ensure secure taxi booking across Tamil Nadu. GDPR compliant taxi service." />
         <meta name="keywords" content="Fastridedroptaxi  privacy policy, data protection, secure taxi booking, Tamil Nadu taxi privacy, GDPR compliance, personal information security" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://Fastridedroptaxi.com/privacy-policy" />
+        <link rel="canonical" href="https://www.Fastridedroptaxi.com/privacy-policy" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Privacy Policy - Fastridedroptaxi  | Secure Taxi Service" />
         <meta property="og:description" content="Learn how Fastridedroptaxi  protects your personal information and ensures secure taxi booking across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://Fastridedroptaxi.com/privacy-policy" />
+        <meta property="og:url" content="https://www.Fastridedroptaxi.com/privacy-policy" />
         <meta property="og:site_name" content="Fastridedroptaxi" />
         
         {/* Twitter Card tags */}
@@ -31,11 +31,11 @@ const PrivacyPolicy = () => {
             "@type": "WebPage",
             "name": "Privacy Policy - Fastridedroptaxi",
             "description": "Fastridedroptaxi  Privacy Policy - Data protection and security information for taxi booking service in Tamil Nadu",
-            "url": "https://Fastridedroptaxi.com/privacy-policy",
+            "url": "https://www.Fastridedroptaxi.com/privacy-policy",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Fastridedroptaxi",
-              "url": "https://Fastridedroptaxi.com"
+              "url": "https://www.Fastridedroptaxi.com"
             },
             "about": {
               "@type": "Organization",
@@ -150,7 +150,7 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact Us</h2>
               <div className="bg-blue-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-4">
-                  For any privacy-related questions or concerns about 1waytaxi, please contact us:
+                  For any privacy-related questions or concerns about Fastridedroptaxi, please contact us:
                 </p>
                 <div className="space-y-2 text-gray-700">
                   <p><strong>Phone:</strong> +91 7305470462</p>
