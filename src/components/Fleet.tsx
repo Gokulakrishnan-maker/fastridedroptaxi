@@ -21,8 +21,8 @@ const Fleet = () => {
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Comfortable Seating'],
       tariff: {
-        oneWay: { ratePerKm: '₹15/KM', driverBata: '₹400', toll: 'One way Toll' },
-        roundTrip: { ratePerKm: '₹14/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+        oneWay: { ratePerKm: '₹14/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹13/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
       }
     },
     {
