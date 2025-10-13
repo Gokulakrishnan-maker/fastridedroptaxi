@@ -5,7 +5,10 @@ const AdBanner = () => {
     <div className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 text-black font-bold py-3 overflow-hidden relative shadow-md">
       {/* Marquee container */}
       <div className="animate-marquee whitespace-nowrap hover:pause text-lg md:text-xl">
-        🚖 Fast & Affordable Rides with FastrideDropTaxi! ✅ 24/7 Service Across Tamil Nadu | 🌟 Safety & Comfort Guaranteed | 📞 Call Now: +91 7305470462
+        🚖 Fast & Affordable Rides with FastrideDropTaxi! ✅ 24/7 Service Across Tamil Nadu | 🌟 Safety & Comfort Guaranteed | 📞{" "}
+        <a href="tel:+917305470462" className="underline">
+          Call Now: +91 7305470462
+        </a>
       </div>
 
       {/* Tailwind marquee animation */}
