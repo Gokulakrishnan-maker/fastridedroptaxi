@@ -430,7 +430,7 @@ const Hero = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
        <div className="text-white">
         <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Book - Fastridedroptaxi Services in
+          Book Taxi Anywhere in
           <span className="text-yellow-300 drop-shadow-lg">
             TamilNadu, Kerala & Karnataka
            </span>
