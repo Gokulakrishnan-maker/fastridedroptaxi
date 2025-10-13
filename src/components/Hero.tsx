@@ -439,9 +439,12 @@ const Hero = () => {
               <a href="https://wa.me/917305470462" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
                 WhatsApp Us
               </a>
-              <a href="tel:+917305470462" className="border-2 border-white text-white px-10 py-4 rounded-xl text-lg font-bold hover:bg-white hover:text-purple-600 transition-all text-center backdrop-blur-sm">
-                Call +91 7305470462
-              </a>
+              <a
+               href="tel:+917305470462"
+               className="bg-yellow-500 border-2 border-yellow-500 text-black px-10 py-4 rounded-xl text-lg font-bold hover:bg-orange-500 hover:border-orange-500 hover:text-white transition-all text-center backdrop-blur-sm"
+              >
+              Call +91 7305470462
+            </a>
             </div>
           </div>
 
