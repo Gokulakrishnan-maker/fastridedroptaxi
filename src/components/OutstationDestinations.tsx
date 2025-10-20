@@ -238,7 +238,7 @@ const OutstationDestinations = () => {
                   </button>
 
                     <a
-                    href="tel:+917305470462"
+                    href="tel:+916382980204"
                     className="flex-1 bg-green-600 text-white py-3 rounded-xl font-bold flex items-center justify-center hover:bg-green-700 transition-all shadow-lg hover:shadow-2xl"
                     >
                     Call Now
@@ -295,7 +295,7 @@ const OutstationDestinations = () => {
 
       <div className="flex flex-col sm:flex-row gap-3">
         <a
-          href="tel:+917305470462"
+          href="tel:+916382980204"
           className="flex-1 bg-green-600 text-white py-3 rounded-xl font-bold flex items-center justify-center hover:bg-green-700 transition-all"
          >
           Call Now
