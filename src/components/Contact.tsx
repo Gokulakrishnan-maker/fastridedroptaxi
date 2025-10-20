@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+91 7305470462',
+      details: '+91 6382980204',
       description: '24/7 booking and support'
     },
     {
