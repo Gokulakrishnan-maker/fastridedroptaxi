@@ -16,7 +16,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Bangalore',
-      image: 'https://www.fastridedroptaxi.com/assets/bangolore.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/bangalore.avif',
       distance: '360 km',
       duration: '6-7 hours',
       description: 'Silicon Valley of India with gardens and tech hubs',
@@ -56,7 +56,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kanyakumari',
-      image: 'https://www.fastridedroptaxi.com/assets/kanyakumari.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/kanyakumari (1).avif',
       distance: '450 km',
       duration: '8-9 hours',
       description: 'Southernmost tip with Thiruvalluvar Statue',
@@ -66,7 +66,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Mysore',
-      image: 'https://www.fastridedroptaxi.com/assets/mysore-palace.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/mysore.avif',
       distance: '280 km',
       duration: '5-6 hours',
       description: 'City of Palaces with rich heritage',
@@ -86,7 +86,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Pondicherry',
-      image: 'https://www.fastridedroptaxi.com/assets/pondicherry.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/pondicherry (1).avif',
       distance: '380 km',
       duration: '6-7 hours',
       description: 'French colonial town with beaches',
@@ -126,7 +126,7 @@ const OutstationDestinations = () => {
     },
       {
     name: 'Trichy',
-    image: 'https://www.fastridedroptaxi.com/assets/Srirangam-Temple.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/trichy.avif',
     category: 'Temple',
     distance: '200 km',
     duration: '5-6 hours',
@@ -137,7 +137,7 @@ const OutstationDestinations = () => {
    },
      {
       name: 'Thanjavur',
-     image: 'https://www.fastridedroptaxi.com/assets/BrihadisvaraTemple.avif',
+     image: 'https://www.fastridedroptaxi.com/assets/Thanjore.avif',
      category: 'Temple',
      distance: '350 km',
      duration: '6-7 hours',
@@ -148,7 +148,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Tirupati',
-    image: 'https://www.fastridedroptaxi.com/assets/tirupati.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/tirupathi.avif',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
@@ -159,7 +159,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Coimbatore',
-    image: 'https://www.fastridedroptaxi.com/assets/coimbatore-isha.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/coimbatore.avif',
     category: 'City',
     distance: '210 km',
     duration: '5-6 hours',
