@@ -6,7 +6,7 @@ const OutstationDestinations = () => {
   const destinations = [
     {
       name: 'Chennai',
-      image: 'https://www.fastridedroptaxi.com/assets/chennai.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/chennai (1).avif',
       distance: '500 km',
       duration: '7-8 hours',
       description: 'Capital city with Marina Beach and IT corridor',
@@ -26,7 +26,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Ooty',
-      image: 'https://www.fastridedroptaxi.com/assets/ooty-hillstation.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/ooty.avif',
       distance: '85 km',
       duration: '2.5 hours',
       description: 'Queen of Hill Stations with tea gardens',
