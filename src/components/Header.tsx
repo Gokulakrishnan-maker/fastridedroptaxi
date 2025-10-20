@@ -52,7 +52,7 @@ const Header = () => {
           transition={{ duration: 1.5, repeat: Infinity }}
         >
           <Phone className="h-4 w-4 text-yellow-500 mr-2" />
-          <span className="text-yellow-600 font-semibold">+91 7305470462</span>
+          <span className="text-yellow-600 font-semibold">+91 6382980204</span>
         </motion.div>
 
         {/* Mobile Menu Button */}
@@ -86,7 +86,7 @@ const Header = () => {
               {/* Mobile Phone */}
               <div className="flex items-center bg-white/90 px-3 py-2 rounded-lg mt-2">
                 <Phone className="h-4 w-4 text-yellow-500 mr-2" />
-                <span className="text-yellow-600 font-semibold">+91 7305470462</span>
+                <span className="text-yellow-600 font-semibold">+91 6382980204</span>
               </div>
             </nav>
           </motion.div>
