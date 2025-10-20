@@ -6,8 +6,8 @@ const AdBanner = () => {
       {/* Marquee container */}
       <div className="animate-marquee whitespace-nowrap hover:pause text-lg md:text-xl">
         🚖 Fast & Affordable Rides with FastrideDropTaxi! ✅ 24/7 Service Across Tamil Nadu | 🌟 Safety & Comfort Guaranteed | 📞{" "}
-        <a href="tel:+917305470462" className="underline">
-          Call Now: +91 7305470462
+        <a href="tel:+916382980204" className="underline">
+          Call Now: +91 6382980204
         </a>
       </div>
 
