@@ -41,7 +41,7 @@ const TermsOfService = () => {
               "@type": "Organization",
               "name": "Fastridedroptaxi",
               "description": "Licensed taxi service across Tamil Nadu with transparent pricing",
-              "telephone": "+91-7305470462",
+              "telephone": "+91-6382980204",
               "email": "fastridedroptaxi.booking@gmail.com",
               "areaServed": "Tamil Nadu, India"
             }
@@ -171,7 +171,7 @@ const TermsOfService = () => {
                   For any legal questions or concerns regarding these terms:
                 </p>
                 <div className="space-y-2 text-gray-700">
-                  <p><strong>Phone:</strong> +91 7305470462</p>
+                  <p><strong>Phone:</strong> +91 6382980204</p>
                   <p><strong>Email:</strong> fastridedroptaxi.booking@gmail.com</p>
                   <p><strong>Address:</strong> Ariyalur, Tamil Nadu, India</p>
                 </div>
