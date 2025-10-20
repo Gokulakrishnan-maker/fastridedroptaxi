@@ -275,7 +275,7 @@ const Hero = () => {
       // First send business WhatsApp (immediate)
       setTimeout(() => {
         const businessMessage = formatWhatsAppConfirmationMessage(bookingData);
-        const businessWhatsAppUrl = `https://wa.me/917305470462?text=${businessMessage}`;
+        const businessWhatsAppUrl = `https://wa.me/916382980204?text=${businessMessage}`;
         window.open(businessWhatsAppUrl, '_blank');
         console.log('✅ Business WhatsApp tab opened');
         
@@ -283,7 +283,7 @@ const Hero = () => {
         setTimeout(() => {
           const customerMessage = formatCustomerWhatsAppConfirmationMessage(bookingData);
           const customerPhone = bookingData.customerPhone!.replace(/\D/g, '');
-          const businessWhatsAppUrl = `https://wa.me/917305470462?text=${businessMessage}`;
+          const businessWhatsAppUrl = `https://wa.me/916382980204?text=${businessMessage}`;
           const customerWhatsAppUrl = `https://wa.me/${formattedPhone}?text=${encodeURIComponent(customerMessage)}`;
 
           
@@ -320,7 +320,7 @@ const Hero = () => {
     console.log('📱 Manual WhatsApp booking triggered...');
     if (successBookingData) {
       const message = formatWhatsAppConfirmationMessage(successBookingData);
-      const whatsappUrl = `https://wa.me/917305470462?text=${message}`;
+      const whatsappUrl = `https://wa.me/916382980204?text=${message}`;
       window.open(whatsappUrl, '_blank');
       console.log('✅ WhatsApp tab opened manually');
     } else {
@@ -359,7 +359,7 @@ const Hero = () => {
             "name": "Fastridedroptaxi",
             "description": "Professional taxi service across Tamil Nadu with 24/7 availability, transparent pricing, and reliable drivers",
             "url": "https://www.Fastridedroptaxi.com",
-            "telephone": "+91-7305470462",
+            "telephone": "+91-6382980204",
             "email": "Fastridedroptaxi@gmail.com",
             "address": {
               "@type": "PostalAddress",
@@ -436,14 +436,14 @@ const Hero = () => {
            </span>
            </h1>
            <div className="flex flex-col sm:flex-row gap-6">
-              <a href="https://wa.me/917305470462" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
+              <a href="https://wa.me/916382980204" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
                 WhatsApp Us
               </a>
               <a
-               href="tel:+917305470462"
+               href="tel:+916382980204"
                className="bg-yellow-500 border-2 border-yellow-500 text-black px-10 py-4 rounded-xl text-lg font-bold hover:bg-orange-500 hover:border-orange-500 hover:text-white transition-all text-center backdrop-blur-sm"
               >
-              Call +91 7305470462
+              Call +91 6382980204
             </a>
             </div>
           </div>
