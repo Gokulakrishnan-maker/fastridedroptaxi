@@ -36,7 +36,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kodaikanal',
-      image: 'https://www.fastridedroptaxi.com/assets/kodaikanal-hillstation.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/kodaikanal.avif',
       distance: '180 km',
       duration: '4 hours',
       description: 'Princess of Hill Stations with pristine lakes',
