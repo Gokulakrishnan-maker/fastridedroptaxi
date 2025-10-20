@@ -46,7 +46,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://www.fastridedroptaxi.com/assets/meenakshi-amman-temple.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/madurai.avif',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
