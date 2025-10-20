@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
               "@type": "Organization",
               "name": "Fastridedroptaxi",
               "description": "Professional taxi service across Tamil Nadu",
-              "telephone": "+91-7305470462",
+              "telephone": "+91-6382980204",
               "email": "fastridedroptaxi.booking@gmail.com"
             }
           })}
@@ -153,7 +153,7 @@ const PrivacyPolicy = () => {
                   For any privacy-related questions or concerns about Fastridedroptaxi, please contact us:
                 </p>
                 <div className="space-y-2 text-gray-700">
-                  <p><strong>Phone:</strong> +91 7305470462</p>
+                  <p><strong>Phone:</strong> +91 6382980204</p>
                   <p><strong>Email:</strong> fastridedroptaxi.booking@gmail.com</p>
                   <p><strong>Address:</strong> Ariyalur, Tamil Nadu, India</p>
                 </div>
