@@ -60,7 +60,7 @@ const Fleet = () => {
     }
   ];
 
-   const phoneNumber = "+917305470462";
+   const phoneNumber = "+916382980204";
 
 
   return (
