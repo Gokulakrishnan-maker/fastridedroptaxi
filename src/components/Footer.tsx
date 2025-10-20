@@ -19,7 +19,7 @@ const Footer = () => {
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="https://wa.me/917305470462" className="bg-gray-800 p-3 rounded-full hover:bg-green-600 transition-colors">
+              <a href="https://wa.me/916382980204" className="bg-gray-800 p-3 rounded-full hover:bg-green-600 transition-colors">
                 <span className="h-5 w-5 flex items-center justify-center text-sm font-bold">W</span>
               </a>
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
@@ -44,11 +44,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-orange-400" />
-                <a href="tel:+917305470462" className="text-gray-300 hover:text-orange-400 transition-colors">+91 7305470462</a>
+                <a href="tel:+916382980204" className="text-gray-300 hover:text-orange-400 transition-colors">+91 7305470462</a>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="h-4 w-4 text-orange-500" />
-                <a href="https://wa.me/917305470462" target="_blank" rel="noopener noreferrer"className="text-gray-300 hover:text-orange-400 transition-colors">WhatsApp Us</a>
+                <a href="https://wa.me/916382980204" target="_blank" rel="noopener noreferrer"className="text-gray-300 hover:text-orange-400 transition-colors">WhatsApp Us</a>
               </div>
               <div className="flex items-center space-x-3">
                <AtSign className="h-4 w-4 text-orange-400" />
