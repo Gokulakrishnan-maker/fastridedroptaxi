@@ -26,7 +26,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Ooty',
-      image: 'https://www.fastridedroptaxi.com/assets/ooty.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/ooty1.avif',
       distance: '85 km',
       duration: '2.5 hours',
       description: 'Queen of Hill Stations with tea gardens',
@@ -36,7 +36,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kodaikanal',
-      image: 'https://www.fastridedroptaxi.com/assets/kodaikanal.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/kodaikanal1.avif',
       distance: '180 km',
       duration: '4 hours',
       description: 'Princess of Hill Stations with pristine lakes',
@@ -46,7 +46,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://www.fastridedroptaxi.com/assets/madurai.avif',
+      image: 'https://www.fastridedroptaxi.com/assets/madurai1.avif',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
@@ -137,7 +137,7 @@ const OutstationDestinations = () => {
    },
      {
       name: 'Thanjavur',
-     image: 'https://www.fastridedroptaxi.com/assets/Thanjore.avif',
+     image: 'https://www.fastridedroptaxi.com/assets/Thanjore1.avif',
      category: 'Temple',
      distance: '350 km',
      duration: '6-7 hours',
@@ -148,7 +148,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Tirupati',
-    image: 'https://www.fastridedroptaxi.com/assets/tirupathi.avif',
+    image: 'https://www.fastridedroptaxi.com/assets/tirupathi1.avif',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
