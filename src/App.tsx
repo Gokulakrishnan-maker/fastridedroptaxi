@@ -16,6 +16,8 @@ import TermsOfService from './components/TermsOfService';
 import FAQ from './components/FAQ';
 import FloatingIcons from './components/FloatingIcons';
 import GkWebDesigns from './components/pages/GkWebDesigns.jsx';
+import ContactPage from './components/pages/ContactPage';
+
 
 const HomePage = () => (
   <>
@@ -42,6 +44,7 @@ function App() {
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/gk-web-designs" element={<GkWebDesigns />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Footer />
           <FloatingIcons />
