@@ -19,6 +19,9 @@ import GkWebDesigns from './components/pages/GkWebDesigns.jsx';
 import ContactPage from './components/pages/ContactPage';
 import PricingPage from './components/pages/PricingPage';
 import AboutPage from './components/pages/AboutPage';
+import CoimbatoreToChennai from './components/pages/CoimbatoreToChennai';
+import CoimbatoreToBangalore from './components/pages/CoimbatoreToBangalore';
+
 
 
 const HomePage = () => (
@@ -48,8 +51,10 @@ function App() {
             <Route path="/gk-web-designs" element={<GkWebDesigns />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/pricing" element={<PricingPage />} />
-            <Route path="/about" element={<AboutPage />} />  
-          </Routes>
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/coimbatore-to-chennai" element={<CoimbatoreToChennai />} />
+            <Route path="/coimbatore-to-bangalore" element={<CoimbatoreToBangalore />} />
+           </Routes>
           <Footer />
           <FloatingIcons />
         </div>
