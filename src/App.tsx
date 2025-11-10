@@ -18,6 +18,7 @@ import FloatingIcons from './components/FloatingIcons';
 import GkWebDesigns from './components/pages/GkWebDesigns.jsx';
 import ContactPage from './components/pages/ContactPage';
 import PricingPage from './components/pages/PricingPage';
+import AboutPage from './components/pages/AboutPage';
 
 
 const HomePage = () => (
@@ -46,7 +47,8 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/gk-web-designs" element={<GkWebDesigns />} />
             <Route path="/contact" element={<ContactPage />} />
-            <Route path="/pricing" element={<PricingPage />} /> 
+            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="/about" element={<AboutPage />} />  
           </Routes>
           <Footer />
           <FloatingIcons />
