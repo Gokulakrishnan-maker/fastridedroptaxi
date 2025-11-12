@@ -407,7 +407,7 @@ Contact: +91 74183 32789`;
 
             <div style="text-align: center; color: #6b7280; font-size: 14px;">
               <p>Booking Time: ${currentDateTime}</p>
-              <p>Contact: +91 7305470462</p>
+              <p>Contact: +91 6382980204</p>
               <p>www.Fastridedroptaxi.com</p>
             </div>
           </div>
@@ -483,8 +483,8 @@ Enquiry Time: ${currentDateTime}
 
 Please respond to the customer promptly.
 
-Contact: +91 90875 20500
-www.happyridedroptaxi.com`;
+Contact: +91 63829 80204
+www.fastridedroptaxi.com`;
 
     const mailOptions = {
       from: ` Contact Fastridedroptaxi <${process.env.EMAIL_USER}>`,
@@ -517,7 +517,7 @@ www.happyridedroptaxi.com`;
 
             <div style="text-align: center; color: #6b7280; font-size: 14px; margin-top: 20px;">
               <p>Enquiry Time: ${currentDateTime}</p>
-              <p>Contact: +91 7305470462</p>
+              <p>Contact: +91 6382980204</p>
               <p>www.Fastridedroptaxi.com</p>
             </div>
           </div>
