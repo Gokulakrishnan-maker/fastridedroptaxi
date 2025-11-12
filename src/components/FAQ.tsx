@@ -101,7 +101,7 @@ const FAQ = () => {
                 "name": "How can I book a taxi with  Fastridedroptaxi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You can book through our website, call +91 73054 70462, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
+                  "text": "You can book through our website, call +91 63829 80204, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
                 }
               },
               {
